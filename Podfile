@@ -4,6 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target "BLEChat" do
+pod 'JSQMessagesViewController'
 pod 'JSQSystemSoundPlayer'
 
 end
