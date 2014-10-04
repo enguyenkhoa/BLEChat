@@ -19,6 +19,7 @@
 		BACE692B96555E3DA0775401 /* libPods-BLEChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5315352E174C862096D2FF /* libPods-BLEChat.a */; };
 		EB5EFA5B19E03ECA00514BE4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5EFA5A19E03ECA00514BE4 /* AudioToolbox.framework */; };
 		EB5EFA5D19E03EED00514BE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5EFA5C19E03EED00514BE4 /* QuartzCore.framework */; };
+		EB5EFA6219E0814200514BE4 /* BLEMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EFA6119E0814200514BE4 /* BLEMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EB5EFA5A19E03ECA00514BE4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EB5EFA5C19E03EED00514BE4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EB5EFA5E19E05F3300514BE4 /* BLEChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB5EFA6119E0814200514BE4 /* BLEMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				AC28C9B219E0255600DA61BD /* FirstViewController.swift */,
 				AC28C98A19DF47B700DA61BD /* Supporting Files */,
 				EB5EFA5E19E05F3300514BE4 /* BLEChat-Bridging-Header.h */,
+				EB5EFA6119E0814200514BE4 /* BLEMessage.swift */,
 			);
 			path = BLEChat;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				AC28C9B419E0255600DA61BD /* FirstViewController.swift in Sources */,
 				AC28C9AF19DF580900DA61BD /* ConnectionsViewController.swift in Sources */,
 				AC28C98F19DF47B700DA61BD /* ViewController.swift in Sources */,
+				EB5EFA6219E0814200514BE4 /* BLEMessage.swift in Sources */,
 				AC28C98D19DF47B700DA61BD /* AppDelegate.swift in Sources */,
 				AC28C9AD19DF50DF00DA61BD /* MCManager.swift in Sources */,
 			);
